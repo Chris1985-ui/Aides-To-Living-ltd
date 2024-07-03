@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aids to Living</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div><img src="logo.png" alt="Aids to Living Logo"></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Blog</a>
+        </nav>
+        <div>Call us: 123-456-7890</div>
+    </header>
+    <section class="hero">
+        <h1>Welcome to Aids to Living</h1>
+        <p>Your source for quality mobility aids.</p>
+        <button>Shop Now</button>
+    </section>
+    <div class="main">
+        <section class="product-categories">
+            <div>
+                <img src="wheelchair.jpg" alt="Wheelchairs">
+                <p>Wheelchairs</p>
+                <button>Shop Now</button>
+            </div>
+            <div>
+                <img src="mobility-scooter.jpg" alt="Mobility Scooters">
+                <p>Mobility Scooters</p>
+                <button>Shop Now</button>
+            </div>
+            <div>
+                <img src="walking-aid.jpg" alt="Walking Aids">
+                <p>Walking Aids</p>
+                <button>Shop Now</button>
+            </div>
+        </section>
+        <section class="appointment">
+            <h2>Book an Appointment</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="date" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+        <section class="reviews">
+            <h2>Customer Reviews</h2>
+            <blockquote>"Aids to Living has been a lifesaver! Their products are top-notch and the service is excellent."</blockquote>
+            <blockquote>"Highly recommend Aids to Living for all your mobility needs. Friendly staff and great selection."</blockquote>
+        </section>
+        <section class="blog">
+            <h2>Latest Articles</h2>
+            <div>
+                <img src="blog1.jpg" alt="Blog 1">
+                <p>How to Choose the Right Wheelchair</p>
+                <button>Read More</button>
+            </div>
+            <div>
+                <img src="blog2.jpg" alt="Blog 2">
+                <p>Top Mobility Aids for 2024</p>
+                <button>Read More</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div>
+            <h3>Quick Links</h3>
+            <a href="#">Policies</a>
+            <a href="#">FAQ</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+            <p>Email: support@aidstoliving.co.uk</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+        <div>
+            <h3>Follow Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+header, footer { 
+    background-color: #f8f8f8; 
+    padding: 10px 20px; 
+}
+header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+nav { 
+    display: flex; 
+    gap: 15px; 
+}
+nav a { 
+    text-decoration: none; 
+    color: #333; 
+}
+.hero { 
+    background-image: url('hero-image.jpg'); 
+    background-size: cover; 
+    padding: 100px 20px; 
+    color: white; 
+    text-align: center; 
+}
+.hero button { 
+    padding: 10px 20px; 
+    background-color: #0056b3; 
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+}
+.main { 
+    padding: 20px; 
+}
+.product-categories, .appointment, .reviews, .blog { 
+    margin-bottom: 40px; 
+}
+.product-categories img, .blog img { 
+    width: 100%; 
+}
+.product-categories, .blog { 
+    display: flex; 
+    gap: 20px; 
+    overflow-x: auto; 
+}
+.product-categories div, .blog div { 
+    flex: 0 0 200px; 
+}
+.appointment form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    max-width: 400px; 
+    margin: auto; 
+}
+.appointment button { 
+    padding: 10px; 
+    background-color: #0056b3; 
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+}
+.reviews blockquote { 
+    font-style: italic; 
+}
+footer { 
+    display: flex; 
+    justify-content: space-between; 
+}
+footer div { 
+    flex: 1; 
+}
